@@ -1,0 +1,13 @@
+spring:
+   application:
+      name: 'fornecedor'
+   datasource:
+      password: bp2507a
+      username: admin
+      url: jdbc:mysql://localhost:3306/fornecedores
+   jpa:
+      show-sql: true
+      hibernate:
+         ddl-auto: create
+      properties:
+         format_sql: true
