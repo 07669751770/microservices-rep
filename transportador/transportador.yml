@@ -1,0 +1,13 @@
+spring:
+   application:
+      name: 'transportador'
+   datasource:
+      password: bp2507a
+      username: admin
+      url: jdbc:mysql://localhost:3306/transportador
+   jpa:
+      show-sql: true
+      hibernate:
+         ddl-auto: update
+      properties:
+         format_sql: true
